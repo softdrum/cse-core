@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Observer | ⚙️ @cse/core components</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="Vue-компоненты для работы с Яндекс-картами">
+    
+    <link rel="preload" href="/cse-core/assets/css/0.styles.af090f0e.css" as="style"><link rel="preload" href="/cse-core/assets/js/app.69dc5dd3.js" as="script"><link rel="preload" href="/cse-core/assets/js/2.50c5972c.js" as="script"><link rel="preload" href="/cse-core/assets/js/12.c45226b9.js" as="script"><link rel="prefetch" href="/cse-core/assets/js/10.9b675902.js"><link rel="prefetch" href="/cse-core/assets/js/11.0effca4a.js"><link rel="prefetch" href="/cse-core/assets/js/13.91ba8a8f.js"><link rel="prefetch" href="/cse-core/assets/js/14.6af48dcf.js"><link rel="prefetch" href="/cse-core/assets/js/3.78c66e48.js"><link rel="prefetch" href="/cse-core/assets/js/4.7bb0be4a.js"><link rel="prefetch" href="/cse-core/assets/js/5.accf44e1.js"><link rel="prefetch" href="/cse-core/assets/js/6.e102e613.js"><link rel="prefetch" href="/cse-core/assets/js/7.1fd92563.js"><link rel="prefetch" href="/cse-core/assets/js/8.13633bc6.js"><link rel="prefetch" href="/cse-core/assets/js/9.9d92124f.js">
+    <link rel="stylesheet" href="/cse-core/assets/css/0.styles.af090f0e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/cse-core/" class="home-link router-link-active"><!----> <span class="site-name">⚙️ @cse/core components</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="https://dev.azure.com/Cargo3/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20CSE.RU/_git/cse?path=/packages/core" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Git repo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="https://dev.azure.com/Cargo3/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20CSE.RU/_git/cse?path=/packages/core" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Git repo
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Руководство</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/cse-core/guide/Installation.html" class="sidebar-link">Установка</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Http</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/cse-core/guide/Http/JsonApiClient.html" class="sidebar-link">JsonApiClient</a></li><li><a href="/cse-core/guide/Http/JsonApiResource.html" class="sidebar-link">JsonApiResource</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Result</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/cse-core/guide/Result.html" class="sidebar-link">Описание</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Utils</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/cse-core/guide/Utils/AsyncBulkJob.html" class="sidebar-link">AsyncBulkJob</a></li><li><a href="/cse-core/guide/Utils/Observer.html" aria-current="page" class="active sidebar-link">Observer</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/cse-core/guide/Utils/uuid.html" class="sidebar-link">Генератор uuid</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="observer"><a href="#observer" class="header-anchor">#</a> Observer</h1> <p>Класс для реализации <strong>pub/sub</strong> взаимодействия</p> <h3 id="👩‍🏫-рубрика-advanced-software-design"><a href="#👩‍🏫-рубрика-advanced-software-design" class="header-anchor">#</a> <span style="font-size:20px;"> 👩‍🏫</span> Рубрика &quot;Advanced Software Design&quot;</h3> <p>Предположим, что у нас есть каталог товаров, в котором мы можем добавить товар 🍎 в корзину.
+Однако, нам также нужно уведомлять о действиях пользователя и логировать их для команды маркетологов <span style="font-size:20px;">👬</span>.
+Для этого мы можем воспользоваться <strong>Observer</strong>.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Observer <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@cse/core'</span>
+
+<span class="token comment">// ProductBasketController.js</span>
+<span class="token keyword">class</span> <span class="token class-name">ProductsBasketController</span> <span class="token keyword">extends</span> <span class="token class-name">Observer</span> <span class="token punctuation">{</span>
+  constructor <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>_basket <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">addProduct</span><span class="token punctuation">(</span><span class="token parameter">product</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>_basket<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>product<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">notify</span><span class="token punctuation">(</span><span class="token string">'product-added'</span><span class="token punctuation">,</span> product<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">const</span> productBasket <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ProductBasketController</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Модуль каталога товаров</span>
+produсtBasket<span class="token punctuation">.</span><span class="token function">addProduct</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">id</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">category</span><span class="token operator">:</span> <span class="token string">'UK'</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'Drill'</span>
+  <span class="token literal-property property">quantity</span><span class="token operator">:</span> <span class="token number">44</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// Модуль трекинга клиента</span>
+<span class="token keyword">const</span> productAddedEvent <span class="token operator">=</span> productBasket<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'product-added'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">product</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  userTrackingService<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>
+    <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Товар </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>product<span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> из категории </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>product<span class="token punctuation">.</span>category<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string"> добавлен в корзину</span><span class="token template-punctuation string">`</span></span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">function</span> <span class="token function">terminate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// не забываем отписываться от события, если оно больше не требуется</span>
+  productAddedEvent<span class="token punctuation">.</span><span class="token function">unsubscribe</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/cse-core/guide/Utils/AsyncBulkJob.html" class="prev">
+        AsyncBulkJob
+      </a></span> <span class="next"><a href="/cse-core/guide/Utils/uuid.html">
+        Генератор uuid
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/cse-core/assets/js/app.69dc5dd3.js" defer></script><script src="/cse-core/assets/js/2.50c5972c.js" defer></script><script src="/cse-core/assets/js/12.c45226b9.js" defer></script>
+  </body>
+</html>
